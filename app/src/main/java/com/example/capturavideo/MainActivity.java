@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, 1000);
         }
     }
-
+    //hola
     static final int REQUEST_VIDEO_CAPTURE = 1;
 
     public void dispatchTakeVideoIntent(View view) {
